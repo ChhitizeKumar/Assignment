@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Tree Example</title>
+    <style>
+        /* Add your styles here if needed */
+        ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        span {
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin: 2px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="tree">
+        <ul>
+            <li>
+                <span>Node 1</span>
+                <ul>
+                    <li><span>Node 1.1</span></li>
+                    <li><span>Node 1.2</span></li>
+                </ul>
+            </li>
+            <li>
+                <span>Node 2</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

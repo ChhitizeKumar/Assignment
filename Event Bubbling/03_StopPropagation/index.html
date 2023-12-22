@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Bubbling Clicker</title>
+    <style>
+        body {
+            padding: 20px;
+            background-color: pink;
+        }
+
+        div {
+            padding: 20px;
+            background-color: green;
+            width: max-content;
+        }
+
+        span {
+            display: block;
+            padding: 20px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+
+<!-- When you click on the pink background (which is the body) is:
+
+body was clicked -->
+<body>
+    <!-- When you click on the green background (which is the div), the console shows:
+    
+    div was clicked
+    body was clicked -->
+    <div>
+        <!-- When you click on the blue background (which is the span), the console shows:
+        
+        span was clicked
+        div was clicked
+        body was clicked -->
+        <span>
+            <!-- When you click on the button, the console shows:
+            
+            button was clicked
+            span was clicked
+            div was clicked
+            body was clicked -->
+            <button>Click Me!</button>
+        </span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
